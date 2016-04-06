@@ -1,7 +1,5 @@
 module.exports = {
   'rules': {
-    // disallow trailing commas in object literals
-    'comma-dangle': [2, 'always-multiline'],
     // disallow assignment in conditional expressions
     'no-cond-assign': [2, 'always'],
     // disallow use of console
@@ -11,7 +9,7 @@ module.exports = {
     // disallow control characters in regular expressions
     'no-control-regex': 2,
     // disallow use of debugger
-    'no-debugger': 1,
+    'no-debugger': 2,
     // disallow duplicate arguments in functions
     'no-dupe-args': 2,
     // disallow duplicate keys when creating object literals
